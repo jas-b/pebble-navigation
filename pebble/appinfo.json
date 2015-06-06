@@ -1,41 +1,48 @@
 {
-  "uuid": "6191ad65-6cb1-404f-bccc-2446654c20ab",
-  "shortName": "Geocaching",
-  "longName": "Geocaching for Pebble",
-  "companyName": "WebMajstr",
-  "versionCode": 3,
-  "versionLabel": "2.0",
-  "watchapp": {
-    "watchface": false
-  },
-  "resources": {
-    "media": [
-      {
-        "menuIcon": true,
-        "type": "png",
-        "name": "IMAGE_MENU_ICON",
-        "file": "images/menu_icon_geocache.png"
-      },
-      {
-        "type": "png",
-        "name": "NO_BT",
-        "file": "images/no_bt.png"
-      },
-      {
-        "type": "font",
-        "name": "FONT_ROBOTO_CONDENSED_30",
-        "file": "fonts/Roboto-Condensed.ttf"
-      },
-      {
-        "type": "font",
-        "name": "FONT_ROBOTO_BOLD_SUBSET_22",
-        "file": "fonts/Roboto-Bold.ttf"
-      },
-      {
-        "type": "font",
-        "name": "FONT_ROBOTO_CONDENSED_36",
-        "file": "fonts/Roboto-Condensed.ttf"
-      }
-    ]
-  }
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "WebMajstr",
+    "longName": "Geocaching for Pebble",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "compatibility": "2.7",
+                "file": "fonts/Roboto-Bold.ttf",
+                "name": "FONT_ROBOTO_BOLD_SUBSET_22",
+                "type": "font"
+            },
+            {
+                "compatibility": "2.7",
+                "file": "fonts/Roboto-Condensed.ttf",
+                "name": "FONT_ROBOTO_CONDENSED_36",
+                "type": "font"
+            },
+            {
+                "compatibility": "2.7",
+                "file": "fonts/Roboto-Condensed.ttf",
+                "name": "FONT_ROBOTO_CONDENSED_30",
+                "type": "font"
+            },
+            {
+                "file": "images/menu_icon_geocache.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Geocaching",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "6191ad65-6cb1-404f-bccc-2446654c20ab",
+    "versionLabel": "2.0",
+    "watchapp": {
+        "watchface": false
+    }
 }
